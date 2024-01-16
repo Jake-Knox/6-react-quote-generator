@@ -3,8 +3,8 @@ import React from 'react';
 const QuoteComponent = ({ quote }) => {
     return (
         <div>
-            <p>{quote.text}</p>
-            <p>- {quote.quthor}</p>
+            <p>{quote.content}</p>
+            <p>- {quote.author}</p>
         </div>
     );
 };
